@@ -59,7 +59,7 @@
 
                 <!-- Heading -->
                 <div class="sidebar-heading">
-                    Data
+                    Menu
                 </div>
 
                 <!-- Nav Item - Pages Collapse Menu -->
