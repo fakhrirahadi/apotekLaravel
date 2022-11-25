@@ -1,4 +1,4 @@
-{{-- Nanti taro codingan home user di sini --}}
+{{-- Nanti taro codingan user di sini --}}
 @extends('templates/appUser')
 @section('title', 'Praktik Dokter | Apotek Firdan Farma')
 @section('subtitle', 'Praktik Dokter')
@@ -14,29 +14,30 @@
     <table class="table">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">No</th>
+            <th scope="col">Nama Dokter</th>
+            <th scope="col">Hari</th>
+            <th scope="col">Jam Praktik</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>Dokter 1</td>
+            <td>Senin</td>
+            <td>13.00-14.00WIB</td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>Dokter 1</td>
+            <td>Senin</td>
+            <td>13.00-14.00WIB</td>
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <td>Dokter 1</td>
+            <td>Senin</td>
+            <td>13.00-14.00WIB</td>
           </tr>
         </tbody>
       </table>
