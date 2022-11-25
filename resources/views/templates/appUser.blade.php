@@ -72,7 +72,6 @@
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="/drugUser">List Obat</a>
-                        {{-- <a class="collapse-item" href="/drug/add">Tambah Obat</a> --}}
                     </div>
                 </div>
             </li>
@@ -87,7 +86,6 @@
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <a class="collapse-item" href="/praktikdokter">Praktik Dokter</a>
-                    {{-- <a class="collapse-item" href="/supplier/add">Add Supplier</a> --}}
                 </div>
             </div>
         </li>
