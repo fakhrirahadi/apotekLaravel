@@ -77,4 +77,28 @@
 		</div>
 	</div> --}}
 </div>
+
+<div class = "container">
+	<div class = "row justify-content-center">
+		<div class = "col-md-12 mb-5">
+
+		</div>
+		@foreach($drugs as $drug)
+		<div class = col-md-4>
+		<div class="card">
+			<img class="card-img-top" src="{{ url('uploads') }}/{{ $drug->icon }}" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">{{ $drug->name_drug}}</h5>
+				<p class="card-text"><strong>Harga : </strong> Rp. {{ number_format($drug->price) }} <br> 
+				<strong>Stock : </strong> {{$drug->stock}}<br>
+				<br>
+			</p>
+				<a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+			</div>	
+		</div>
+		@endforeach
+	</div>
+</div>
+
 @stop
